@@ -12,5 +12,6 @@ namespace DevTrackR.Tracking.Application.Models.InputModels
         public string TrackingCode { get; set; }
         public string Description { get; set; }
         public bool IsShippingCompleted { get; set; }
+        public string ContactEmail { get; set; }
     }
 }
